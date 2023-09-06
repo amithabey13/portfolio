@@ -1,0 +1,49 @@
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding:0.8rem 3rem;
+    font-size:1rem;
+    font-weight: 600;
+    border:2px solid transparent
+    outline: none;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition:all .3s ease;
+    opacity: 0;
+    animation: slidetop 1s ease forwards;
+    animation-delay: 2ss;
+}
+.btn-primary{
+    background: var(--pink);
+    color:var(--pure);
+}
+.btn-primary:hover{
+    background:transparent;
+    border-color: var(--pink);
+    color:var(--pink);
+}
+.btn-secondary{
+    background: var(--pink);
+    color:var(--pure);
+}
+.btn-secondary:hover{
+    background:transparent;
+    border-color: var(--pink);
+    color: var(--pink);
+}
+.flex-1{
+    flex: 3;
+}
+.justify-center{
+    justify-content: center;
+
+}
